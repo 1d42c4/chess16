@@ -1,0 +1,949 @@
+{
+  "slug": "openings",
+  "title": "Openings, Explained",
+  "subtitle": "Understand what opening moves accomplish, one lesson at a time.",
+  "color": "#9a4f31",
+  "audience": "For players who know the legal moves and want reasons instead of long memorized variations.",
+  "lessons": [
+    {
+      "title": "Central pawns make room for the pieces",
+      "lead": "An opening pawn move can control squares and open useful lines.",
+      "read": "At the starting position, most bishops and the queen are boxed in by their own pawns. White’s e-pawn can advance two squares. On e4 it controls d5 and f5 while opening the f1 bishop’s diagonal and a route for the queen.",
+      "explain": "The final position shows the opening’s basic negotiation: White creates a central target, Black supports it, and both sides bring pieces into play. A useful move often does two jobs at once. The knights are no longer spectators on the back rank, and their destinations relate to the central pawns.",
+      "caution": "Central occupation is not the only valid opening method. A player may attack the center with pieces or flank pawns. The useful principle is to influence the center while developing a position that can support those ambitions.",
+      "remember": "Look for the squares gained and the pieces released by each pawn move.",
+      "number": 1,
+      "filename": "01-central-pawns-make-room-for-the-pieces.html",
+      "opening": [],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n *",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "steps": [
+        {
+          "san": "e4",
+          "uci": "e2e4",
+          "note": "White claims central space and opens lines for development.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1"
+        },
+        {
+          "san": "e5",
+          "uci": "e7e5",
+          "note": "Black makes the corresponding central claim.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"
+        },
+        {
+          "san": "Nf3",
+          "uci": "g1f3",
+          "note": "White develops a knight while attacking e5.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+        },
+        {
+          "san": "Nc6",
+          "uci": "b8c6",
+          "note": "Black develops a knight that protects e5.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+        }
+      ],
+      "finalFen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 188
+    },
+    {
+      "title": "Develop toward useful work",
+      "lead": "A developed piece should influence a relevant part of the board.",
+      "read": "Both e-pawns have moved, and the minor pieces are ready to enter the game. A knight on f3 influences d4 and e5; a bishop on c4 looks toward f7. These destinations connect development to concrete squares.",
+      "explain": "Development is not a race to move every piece once. It is the process of giving pieces useful squares and coordinating them. The final position has threats on both central pawns, so the next move must respond to the actual position. A general opening principle does not excuse ignoring an attack.",
+      "caution": "Moving a piece twice is sometimes necessary to escape a threat or seize a tactical opportunity. Repeated movement becomes wasteful when it achieves little while the opponent brings fresh pieces into play.",
+      "remember": "Develop a piece toward a job, then notice the opponent’s reply.",
+      "number": 2,
+      "filename": "02-develop-toward-useful-work.html",
+      "opening": [
+        "e4",
+        "e5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 *",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "steps": [
+        {
+          "san": "Nf3",
+          "uci": "g1f3",
+          "note": "The knight develops with an attack on e5.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2"
+        },
+        {
+          "san": "Nc6",
+          "uci": "b8c6",
+          "note": "Black protects e5 with another developing move.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"
+        },
+        {
+          "san": "Bc4",
+          "uci": "f1c4",
+          "note": "The bishop joins the game on a diagonal toward the Black king’s side.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black develops and attacks White’s e4 pawn.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"
+        }
+      ],
+      "finalFen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 180
+    },
+    {
+      "title": "Castling connects safety with development",
+      "lead": "A familiar Italian setup shows several opening jobs fitting together.",
+      "read": "White’s king-side knight and bishop have left their starting squares. The king has a clear route to g1, and castling is legal. The center is not yet fully settled, so leaving the king on e1 indefinitely would require a concrete reason.",
+      "explain": "Each move contributes to a playable position: safer king, supported center, and additional routes for pieces. The rooks still need coordination, and the undeveloped queen-side pieces still need useful squares. Castling is part of that process rather than a declaration that the opening is finished.",
+      "caution": "A castled king can still be attacked. Pawn advances near it, open files, or an opponent’s concentration of pieces may create danger. The point is to assess the available shelter and the state of the center, not to castle automatically in every position.",
+      "remember": "Combine king safety, central support, and piece activity.",
+      "number": 3,
+      "filename": "03-castling-connects-safety-with-development.html",
+      "opening": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 *",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "steps": [
+        {
+          "san": "O-O",
+          "uci": "e1g1",
+          "note": "White brings the king to g1 and the rook to f1 in one move.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black develops with pressure on e4.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 6 5"
+        },
+        {
+          "san": "d3",
+          "uci": "d2d3",
+          "note": "White supports e4 and opens the c1 bishop’s diagonal.",
+          "side": "w",
+          "moveNumber": 5,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b kq - 0 5"
+        },
+        {
+          "san": "d6",
+          "uci": "d7d6",
+          "note": "Black supports e5 and releases the c8 bishop.",
+          "side": "b",
+          "moveNumber": 5,
+          "fen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6"
+        }
+      ],
+      "finalFen": "r1bqk2r/ppp2ppp/2np1n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 w kq - 0 6",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 189
+    },
+    {
+      "title": "An early queen can become a target",
+      "lead": "Attacking the queen may let a developing move gain time.",
+      "read": "Black has recovered the pawn with the queen on d5. White can develop the b1 knight to c3, where it attacks that queen. Black must address the attack while White adds a useful piece to the game.",
+      "explain": "This is a standard idea in the Scandinavian Defense. The queen’s early activity costs time when opponents can attack it productively, but that cost does not by itself refute the opening. Black may accept the tempo loss for a sound structure and clear development.",
+      "caution": "Chasing the queen is useful only when the chasing move improves your position or achieves something concrete. A queen can lure pieces onto awkward squares. After each queen move, reassess its threats rather than assuming the next attack on it is automatically good.",
+      "remember": "A productive queen attack improves your own position while forcing attention to the queen.",
+      "number": 4,
+      "filename": "04-an-early-queen-can-become-a-target.html",
+      "opening": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 d5 2. exd5 Qxd5 *",
+      "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+      "steps": [
+        {
+          "san": "Nc3",
+          "uci": "b1c3",
+          "note": "White develops and attacks the queen at the same time.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 3"
+        },
+        {
+          "san": "Qa5",
+          "uci": "d5a5",
+          "note": "Black moves the queen away from the attack.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnb1kbnr/ppp1pppp/8/q7/8/2N5/PPPP1PPP/R1BQKBNR w KQkq - 2 4"
+        },
+        {
+          "san": "d4",
+          "uci": "d2d4",
+          "note": "White builds a central pawn presence and frees the c1 bishop.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnb1kbnr/ppp1pppp/8/q7/3P4/2N5/PPP2PPP/R1BQKBNR b KQkq - 0 4"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black begins developing a knight toward the center.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "rnb1kb1r/ppp1pppp/5n2/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5"
+        }
+      ],
+      "finalFen": "rnb1kb1r/ppp1pppp/5n2/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 1 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 192
+    },
+    {
+      "title": "The f7 pawn begins with only one defender",
+      "lead": "A common mating trap explains why developing moves still need a threat check.",
+      "read": "The bishop on c4 points at f7. In the starting position, f7 is defended only by the Black king. White’s queen can join that diagonal attack from h5. Two attackers against this vulnerable point can create an immediate mating threat.",
+      "explain": "The final board shows why attacking an enemy queen is not enough: checkmate takes priority over saving or chasing a piece. Black needed to meet the f7 threat. In the position after Qh5, a move such as g6 attacks the queen while blocking its diagonal route toward f7.",
+      "caution": "The trap is an illustration, not a reliable opening plan against prepared defense. Repeated early queen moves can give the opponent development with tempo. Its lasting lesson is to inspect the opponent’s immediate threat before choosing an otherwise natural move.",
+      "remember": "A move that develops a piece can still lose if it ignores mate.",
+      "number": 5,
+      "filename": "05-the-f7-pawn-begins-with-only-one-defender.html",
+      "opening": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Nc6"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 2. Bc4 Nc6 *",
+      "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR w KQkq - 2 3",
+      "steps": [
+        {
+          "san": "Qh5",
+          "uci": "d1h5",
+          "note": "White threatens Qxf7#, combining queen and bishop.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "r1bqkbnr/pppp1ppp/2n5/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 3 3"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "This developing move attacks the queen but does not stop its mating capture.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p2Q/2B1P3/8/PPPP1PPP/RNB1K1NR w KQkq - 4 4"
+        },
+        {
+          "san": "Qxf7#",
+          "uci": "h5f7",
+          "note": "The queen captures on f7. The c4 bishop protects it, so the Black king cannot take it.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "r1bqkb1r/pppp1Qpp/2n2n2/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4"
+        }
+      ],
+      "finalFen": "r1bqkb1r/pppp1Qpp/2n2n2/4p3/2B1P3/8/PPPP1PPP/RNB1K1NR b KQkq - 0 4",
+      "checkmate": true,
+      "stalemate": false,
+      "wordCount": 199
+    },
+    {
+      "title": "The Queen’s Gambit challenges a central pawn",
+      "lead": "A flank pawn can be exchanged to influence the center.",
+      "read": "White’s d4 pawn and Black’s d5 pawn face one another. White can use the c-pawn to attack d5. The aim is not simply to push another pawn; it is to change Black’s central support and create useful possibilities for the pieces.",
+      "explain": "The final diagram differs from the starting one in more than pawn count. White’s c-file has opened, and Black’s e-pawn has become a d-pawn. Piece routes and future pawn breaks now follow that structure. Keeping the tension for longer would have preserved different options.",
+      "caution": "Neither exchanging immediately nor maintaining tension is universally correct. Compare the resulting files, piece activity, and possible central breaks before deciding which structure helps your position.",
+      "remember": "Judge a pawn exchange by the position it creates.",
+      "number": 6,
+      "filename": "06-the-queens-gambit-challenges-a-central-pawn.html",
+      "opening": [
+        "d4",
+        "d5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. d4 d5 *",
+      "fen": "rnbqkbnr/ppp1pppp/8/3p4/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+      "steps": [
+        {
+          "san": "c4",
+          "uci": "c2c4",
+          "note": "White challenges the d5 pawn from the side.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2"
+        },
+        {
+          "san": "e6",
+          "uci": "e7e6",
+          "note": "Black supports d5 and opens the f8 bishop’s diagonal.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"
+        },
+        {
+          "san": "Nf3",
+          "uci": "g1f3",
+          "note": "White develops while keeping the central tension.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R b KQkq - 1 3"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black develops and adds control of e4.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3p4/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4"
+        },
+        {
+          "san": "cxd5",
+          "uci": "c4d5",
+          "note": "White chooses to exchange the c-pawn for the d5 pawn.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnbqkb1r/ppp2ppp/4pn2/3P4/3P4/5N2/PP2PPPP/RNBQKB1R b KQkq - 0 4"
+        },
+        {
+          "san": "exd5",
+          "uci": "e6d5",
+          "note": "Black recaptures with the e-pawn, producing a new pawn structure.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5"
+        }
+      ],
+      "finalFen": "rnbqkb1r/ppp2ppp/5n2/3p4/3P4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 188
+    },
+    {
+      "title": "The Sicilian trades a flank pawn for a central pawn",
+      "lead": "An asymmetrical exchange gives the two sides different plans.",
+      "read": "Black’s c5 pawn challenges d4 rather than copying White with an e-pawn move. White can open the center with d4. If Black captures, White’s knight can recapture and occupy a central square.",
+      "explain": "Black now has an open c-file from the Black side, while White often enjoys active central pieces and prospects for quick development. The asymmetry matters: the sides do not have identical pawn majorities or identical useful files. This is why Sicilian middlegames can feature different plans on opposite wings.",
+      "caution": "This short line explains an Open Sicilian structure, not every Sicilian variation. Concrete move orders can change tactical possibilities, and a useful file is valuable only when a rook can occupy it and attack something relevant.",
+      "remember": "An unequal pawn arrangement creates different opportunities for each side.",
+      "number": 7,
+      "filename": "07-the-sicilian-trades-a-flank-pawn-for-a-central-pawn.html",
+      "opening": [
+        "e4",
+        "c5",
+        "Nf3",
+        "d6"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 c5 2. Nf3 d6 *",
+      "fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "steps": [
+        {
+          "san": "d4",
+          "uci": "d2d4",
+          "note": "White offers a central pawn exchange to free the pieces.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/pp2pppp/3p4/2p5/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3"
+        },
+        {
+          "san": "cxd4",
+          "uci": "c5d4",
+          "note": "Black trades the c-pawn for White’s d-pawn.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/pp2pppp/3p4/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"
+        },
+        {
+          "san": "Nxd4",
+          "uci": "f3d4",
+          "note": "White recaptures with the f3 knight, developing its central influence.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnbqkbnr/pp2pppp/3p4/8/3NP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black develops and attacks e4.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/8/PPP2PPP/RNBQKB1R w KQkq - 1 5"
+        },
+        {
+          "san": "Nc3",
+          "uci": "b1c3",
+          "note": "White develops a knight that supports e4.",
+          "side": "w",
+          "moveNumber": 5,
+          "fen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5"
+        }
+      ],
+      "finalFen": "rnbqkb1r/pp2pppp/3p1n2/8/3NP3/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 185
+    },
+    {
+      "title": "A pawn chain has a base",
+      "lead": "The French Defense shows why attacking the support can matter.",
+      "read": "White can advance e4–e5, closing the center and gaining space. The e5 pawn is then supported by the d4 pawn. Black can attack that support with the c-pawn, making the base of the chain a practical target.",
+      "explain": "The point of ...c5 is structural. Black is trying to make White spend time supporting the center, or induce an exchange that changes its shape. White’s extra space is useful, but the advanced pawns also define targets. The final diagram explains the plans more clearly than a list of opening names.",
+      "caution": "A pawn chain is not invulnerable merely because its pawns protect one another. Attacks on its base, pressure on fixed squares, and suitable breaks can all matter. The right break still needs tactical preparation; a structural idea is not permission to sacrifice a pawn without checking the line.",
+      "remember": "Identify which pawn supports the advanced pawn before choosing a pawn break.",
+      "number": 8,
+      "filename": "08-a-pawn-chain-has-a-base.html",
+      "opening": [
+        "e4",
+        "e6",
+        "d4",
+        "d5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e6 2. d4 d5 *",
+      "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "steps": [
+        {
+          "san": "e5",
+          "uci": "e4e5",
+          "note": "White gains space and fixes a pawn on e5.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3"
+        },
+        {
+          "san": "c5",
+          "uci": "c7c5",
+          "note": "Black immediately challenges the supporting d4 pawn.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 0 4"
+        },
+        {
+          "san": "c3",
+          "uci": "c2c3",
+          "note": "White reinforces d4 with the c-pawn.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnbqkbnr/pp3ppp/4p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR b KQkq - 0 4"
+        },
+        {
+          "san": "Nc6",
+          "uci": "b8c6",
+          "note": "Black develops another attacker against d4.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5"
+        }
+      ],
+      "finalFen": "r1bqkbnr/pp3ppp/2n1p3/2ppP3/3P4/2P5/PP3PPP/RNBQKBNR w KQkq - 1 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 192
+    },
+    {
+      "title": "Develop a bishop before closing its diagonal",
+      "lead": "A Caro–Kann setup illustrates the importance of move order.",
+      "read": "White has advanced to e5, and Black’s c8 bishop still has an open diagonal through d7 and e6. Black can use that route before moving the e-pawn. Once ...e6 is played, the bishop’s original diagonal would be blocked by its own pawn.",
+      "explain": "The order of these two Black moves changes the bishop’s circumstances. Developing the bishop first solves a specific problem before building the pawn structure. This is a practical way to understand opening move orders: one move may preserve a route that another move would close.",
+      "caution": "A bishop outside the pawn chain can be attacked, and White has several ways to challenge this setup. The example does not establish that moving a bishop first is always best. It shows how the planned pawn structure can explain a developing move.",
+      "remember": "Before fixing your pawns, notice which piece routes will disappear.",
+      "number": 9,
+      "filename": "09-develop-a-bishop-before-closing-its-diagonal.html",
+      "opening": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "e5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 c6 2. d4 d5 3. e5 *",
+      "fen": "rnbqkbnr/pp2pppp/2p5/3pP3/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "steps": [
+        {
+          "san": "Bf5",
+          "uci": "c8f5",
+          "note": "Black develops the c8 bishop outside the future pawn chain.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/8/PPP2PPP/RNBQKBNR w KQkq - 1 4"
+        },
+        {
+          "san": "Nf3",
+          "uci": "g1f3",
+          "note": "White develops toward the center.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rn1qkbnr/pp2pppp/2p5/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R b KQkq - 2 4"
+        },
+        {
+          "san": "e6",
+          "uci": "e7e6",
+          "note": "Black reinforces d5 and opens the f8 bishop’s diagonal.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5"
+        }
+      ],
+      "finalFen": "rn1qkbnr/pp3ppp/2p1p3/3pPb2/3P4/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 180
+    },
+    {
+      "title": "A fianchetto puts a bishop on a long diagonal",
+      "lead": "The bishop’s promise depends on what blocks its line.",
+      "read": "White has moved the g-pawn to g3, creating a square for the f1 bishop on g2. Black has made the corresponding preparation. A bishop on g2 looks along f3, e4, d5, c6, b7, and a8, stopping at the first occupied square.",
+      "explain": "The fianchetto combines development with influence over distant central and queen-side squares. In this particular position, White’s own knight on f3 initially blocks the bishop’s diagonal. The bishop’s influence can grow when that knight moves and the center opens. A long diagonal is a route, not a guarantee that every square on it is currently attacked.",
+      "caution": "Advancing the g-pawn also changes the king’s shelter. Exchanging the fianchetto bishop can leave weak squares near the king, especially when the opponent can reach them. Balance diagonal activity against the defensive job the bishop performs.",
+      "remember": "Trace the bishop’s actual line, including its own blockers.",
+      "number": 10,
+      "filename": "10-a-fianchetto-puts-a-bishop-on-a-long-diagonal.html",
+      "opening": [
+        "Nf3",
+        "Nf6",
+        "g3",
+        "g6"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. Nf3 Nf6 2. g3 g6 *",
+      "fen": "rnbqkb1r/pppppp1p/5np1/8/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 0 3",
+      "steps": [
+        {
+          "san": "Bg2",
+          "uci": "f1g2",
+          "note": "White places the bishop on the long diagonal.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnbqkb1r/pppppp1p/5np1/8/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 3"
+        },
+        {
+          "san": "Bg7",
+          "uci": "f8g7",
+          "note": "Black places the bishop on the opposite long diagonal.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnbqk2r/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQK2R w KQkq - 2 4"
+        },
+        {
+          "san": "O-O",
+          "uci": "e1g1",
+          "note": "White castles behind the fianchetto structure.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnbqk2r/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQ1RK1 b kq - 3 4"
+        },
+        {
+          "san": "O-O",
+          "uci": "e8g8",
+          "note": "Black also castles.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "rnbq1rk1/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQ1RK1 w - - 4 5"
+        }
+      ],
+      "finalFen": "rnbq1rk1/ppppppbp/5np1/8/8/5NP1/PPPPPPBP/RNBQ1RK1 w - - 4 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 186
+    },
+    {
+      "title": "A closed center gives plans time to develop",
+      "lead": "A King’s Indian structure explains why pawn breaks guide the middlegame.",
+      "read": "White has a broad center with pawns on c4, d4, and e4. Black has challenged it with ...e5. White can close the center by advancing d4–d5, creating a stable structure that directs future play.",
+      "explain": "With the center closed, immediate exchanges in the middle become less likely. White may prepare queen-side expansion, while Black often looks for a king-side break such as ...f5. These plans arise from the pawn structure and available space, not from the opening’s name alone. A break may open lines on the wing where pieces have been gathered.",
+      "caution": "A closed center is not a permanent safety guarantee. A pawn break can suddenly open it, and a flank attack may be too slow if the opponent creates a direct central threat. The diagram teaches the connection between fixed pawns and likely directions of play.",
+      "remember": "Use the pawn structure to identify the breaks that can change the position.",
+      "number": 11,
+      "filename": "11-a-closed-center-gives-plans-time-to-develop.html",
+      "opening": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 *",
+      "fen": "rnbq1rk1/ppp2pbp/3p1np1/4p3/2PPP3/2N2N2/PP2BPPP/R1BQK2R w KQ - 0 7",
+      "steps": [
+        {
+          "san": "d5",
+          "uci": "d4d5",
+          "note": "White gains space and closes the central pawn contact.",
+          "side": "w",
+          "moveNumber": 7,
+          "fen": "rnbq1rk1/ppp2pbp/3p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQK2R b KQ - 0 7"
+        },
+        {
+          "san": "Na6",
+          "uci": "b8a6",
+          "note": "Black develops a knight toward c5 or another useful route.",
+          "side": "b",
+          "moveNumber": 7,
+          "fen": "r1bq1rk1/ppp2pbp/n2p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQK2R w KQ - 1 8"
+        },
+        {
+          "san": "O-O",
+          "uci": "e1g1",
+          "note": "White completes king-side castling.",
+          "side": "w",
+          "moveNumber": 8,
+          "fen": "r1bq1rk1/ppp2pbp/n2p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 2 8"
+        }
+      ],
+      "finalFen": "r1bq1rk1/ppp2pbp/n2p1np1/3Pp3/2P1P3/2N2N2/PP2BPPP/R1BQ1RK1 b - - 2 8",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 191
+    },
+    {
+      "title": "A gambit exchanges material for opportunities",
+      "lead": "Compensation must be used and evaluated, not merely named.",
+      "read": "White can offer the f-pawn with f4. If Black captures, White gives up a pawn while trying to gain central influence and faster activity. Moving the f-pawn also changes the king’s shelter, so the offer has a real cost.",
+      "explain": "The final position has an imbalance rather than a simple verdict. Black has an extra pawn; White has opened lines and brought pieces into play. White’s next decisions need to turn activity into something concrete. If the initiative fades without sufficient return, the missing pawn remains missing.",
+      "caution": "An opponent is not obliged to accept a gambit, and an exciting-looking attack is not proof of adequate compensation. Count development, open lines, king safety, and actual threats. These practical questions are more useful than assuming that every offered pawn must be either brilliant or unsound.",
+      "remember": "When giving material, name the opportunity you expect in return.",
+      "number": 12,
+      "filename": "12-a-gambit-exchanges-material-for-opportunities.html",
+      "opening": [
+        "e4",
+        "e5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 *",
+      "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+      "steps": [
+        {
+          "san": "f4",
+          "uci": "f2f4",
+          "note": "White offers a pawn and challenges e5.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2"
+        },
+        {
+          "san": "exf4",
+          "uci": "e5f4",
+          "note": "Black accepts the King’s Gambit.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/8/PPPP2PP/RNBQKBNR w KQkq - 0 3"
+        },
+        {
+          "san": "Nf3",
+          "uci": "g1f3",
+          "note": "White develops and prevents an immediate queen check on h4.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 3"
+        },
+        {
+          "san": "g5",
+          "uci": "g7g5",
+          "note": "Black supports the extra pawn and expands on the king-side.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "rnbqkbnr/pppp1p1p/8/6p1/4Pp2/5N2/PPPP2PP/RNBQKB1R w KQkq - 0 4"
+        },
+        {
+          "san": "Bc4",
+          "uci": "f1c4",
+          "note": "White develops toward f7.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "rnbqkbnr/pppp1p1p/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R b KQkq - 1 4"
+        }
+      ],
+      "finalFen": "rnbqkbnr/pppp1p1p/8/6p1/2B1Pp2/5N2/PPPP2PP/RNBQK2R b KQkq - 1 4",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 193
+    },
+    {
+      "title": "Sometimes development is worth more than grabbing a pawn",
+      "lead": "An open center rewards coordinated pieces.",
+      "read": "White’s queen and bishop pressure f7, while Black’s queen is tied to defense. White could become distracted by material on the queen-side. The instructive development choice is to bring the b1 knight into play and add another piece to the central struggle.",
+      "explain": "The moves are from the opening of Morphy’s famous Opera Game; the explanation here focuses on a single principle. White’s advantage in activity becomes meaningful because the center is open and Black’s king remains in it. Adding a developing move helps bring the rooks into the game sooner.",
+      "caution": "A pawn capture can certainly be correct when it is safe and useful. The lesson is to compare the time spent collecting it with the opportunities created by immediate development. An open center makes tempo and coordination especially important.",
+      "remember": "When lines are open, bringing another piece into play can strengthen every existing threat.",
+      "number": 13,
+      "filename": "13-sometimes-development-is-worth-more-than-grabbing-a-pawn.html",
+      "opening": [
+        "e4",
+        "e5",
+        "Nf3",
+        "d6",
+        "d4",
+        "Bg4",
+        "dxe5",
+        "Bxf3",
+        "Qxf3",
+        "dxe5",
+        "Bc4",
+        "Nf6",
+        "Qb3",
+        "Qe7"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 d6 3. d4 Bg4 4. dxe5 Bxf3 5. Qxf3 dxe5 6. Bc4 Nf6 7. Qb3 Qe7 *",
+      "fen": "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R w KQkq - 4 8",
+      "steps": [
+        {
+          "san": "Nc3",
+          "uci": "b1c3",
+          "note": "White develops the remaining knight instead of making another queen excursion.",
+          "side": "w",
+          "moveNumber": 8,
+          "fen": "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1QN5/PPP2PPP/R1B1K2R b KQkq - 5 8"
+        },
+        {
+          "san": "c6",
+          "uci": "c7c6",
+          "note": "Black prepares space for the queen-side pieces and restrains a knight entry on d5.",
+          "side": "b",
+          "moveNumber": 8,
+          "fen": "rn2kb1r/pp2qppp/2p2n2/4p3/2B1P3/1QN5/PPP2PPP/R1B1K2R w KQkq - 0 9"
+        },
+        {
+          "san": "Bg5",
+          "uci": "c1g5",
+          "note": "White develops the c1 bishop with a pin against the f6 knight and pressure along the diagonal.",
+          "side": "w",
+          "moveNumber": 9,
+          "fen": "rn2kb1r/pp2qppp/2p2n2/4p1B1/2B1P3/1QN5/PPP2PPP/R3K2R b KQkq - 1 9"
+        }
+      ],
+      "finalFen": "rn2kb1r/pp2qppp/2p2n2/4p1B1/2B1P3/1QN5/PPP2PPP/R3K2R b KQkq - 1 9",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 200
+    },
+    {
+      "title": "A central break must include the opponent’s forcing reply",
+      "lead": "Preparing d4 in the Italian does not remove Black’s counterplay.",
+      "read": "White can prepare d4 by playing c3. If Black captures the d-pawn, the c-pawn can recapture and leave White with a central pawn pair. But the changed pawn structure may also open a checking diagonal for Black’s bishop.",
+      "explain": "The final diagram shows both sides of the bargain. White obtained central space, while Black obtained a forcing move that White must answer. A central pawn pair can be strong, but it may also become a target before all the pieces are ready to support it.",
+      "caution": "Do not judge a pawn break immediately after your own recapture. Continue through the opponent’s checks and captures. The example is an illustrative opening line, not a claim that one side wins by following it mechanically.",
+      "remember": "A useful plan includes the opponent’s strongest immediate response.",
+      "number": 14,
+      "filename": "14-a-central-break-must-include-the-opponents-forcing-reply.html",
+      "opening": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 *",
+      "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+      "steps": [
+        {
+          "san": "c3",
+          "uci": "c2c3",
+          "note": "White prepares the d4 advance.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R b KQkq - 0 4"
+        },
+        {
+          "san": "Nf6",
+          "uci": "g8f6",
+          "note": "Black develops with pressure on e4.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/2P2N2/PP1P1PPP/RNBQK2R w KQkq - 1 5"
+        },
+        {
+          "san": "d4",
+          "uci": "d2d4",
+          "note": "White challenges the center.",
+          "side": "w",
+          "moveNumber": 5,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 5"
+        },
+        {
+          "san": "exd4",
+          "uci": "e5d4",
+          "note": "Black accepts the exchange.",
+          "side": "b",
+          "moveNumber": 5,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BpP3/2P2N2/PP3PPP/RNBQK2R w KQkq - 0 6"
+        },
+        {
+          "san": "cxd4",
+          "uci": "c3d4",
+          "note": "White recaptures, establishing pawns on d4 and e4.",
+          "side": "w",
+          "moveNumber": 6,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b5/2BPP3/5N2/PP3PPP/RNBQK2R b KQkq - 0 6"
+        },
+        {
+          "san": "Bb4+",
+          "uci": "c5b4",
+          "note": "Black develops the bishop’s counterplay with a check.",
+          "side": "b",
+          "moveNumber": 6,
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7"
+        }
+      ],
+      "finalFen": "r1bqk2r/pppp1ppp/2n2n2/8/1bBPP3/5N2/PP3PPP/RNBQK2R w KQkq - 1 7",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 183
+    },
+    {
+      "title": "Small pawn moves can expose a large diagonal",
+      "lead": "The quickest mate shows why king safety is concrete.",
+      "read": "White’s f-pawn and g-pawn help shield the king. Moving both carelessly can open the diagonal from h4 to e1. Black’s queen begins on d8, but a central pawn move can release its route to h4.",
+      "explain": "The mate is not caused by a mysterious opening secret. The diagonal is open, the king has no escape, and no piece can capture or block the queen. Naming those facts makes the pattern understandable. The example also explains why weakening pawn moves need a specific purpose.",
+      "caution": "An f-pawn or g-pawn advance is not always bad. Many sound openings use them. Their effect depends on development, king placement, and whether the opponent can exploit the lines they open. Here White combines both advances at the worst possible moment.",
+      "remember": "Before moving a pawn near the king, inspect the line that will become available.",
+      "number": 15,
+      "filename": "15-small-pawn-moves-can-expose-a-large-diagonal.html",
+      "opening": [],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n *",
+      "fen": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "steps": [
+        {
+          "san": "f3",
+          "uci": "f2f3",
+          "note": "White weakens the e1–h4 diagonal and obstructs the g1 knight’s natural f3 square.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1"
+        },
+        {
+          "san": "e5",
+          "uci": "e7e5",
+          "note": "Black opens the queen’s diagonal.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/8/5P2/PPPPP1PP/RNBQKBNR w KQkq - 0 2"
+        },
+        {
+          "san": "g4",
+          "uci": "g2g4",
+          "note": "White removes the g-pawn from the route that could help meet the queen check.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/6P1/5P2/PPPPP2P/RNBQKBNR b KQkq - 0 2"
+        },
+        {
+          "san": "Qh4#",
+          "uci": "d8h4",
+          "note": "Black checks along h4–g3–f2–e1, and White has no legal defense.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR w KQkq - 1 3"
+        }
+      ],
+      "finalFen": "rnb1kbnr/pppp1ppp/8/4p3/6Pq/5P2/PPPPP2P/RNBQKBNR w KQkq - 1 3",
+      "checkmate": true,
+      "stalemate": false,
+      "wordCount": 196
+    },
+    {
+      "title": "The opening ends when the position gives you a plan",
+      "lead": "A developed setup is the beginning of a middlegame decision.",
+      "read": "White’s king is castled and the rook on e1 supports e4. The bishop has settled on b3. White can prepare the central advance d4, but the plan needs support and attention to Black’s possible replies.",
+      "explain": "This familiar Ruy Lopez structure illustrates a transition. The next task is not to remember an arbitrary move number; it is to decide which pawn break or piece improvement the position calls for. White’s intended d4 break relates to central space, while Black may prepare counterplay against that center.",
+      "caution": "The displayed h3 move is useful in this structure, not a rule that every opening requires a rook-pawn move. Once a position differs from the familiar pattern, reassess its threats, piece activity, and pawn breaks. Understanding the purpose of a move makes that reassessment possible.",
+      "remember": "Leave the opening with a reasoned plan, not just a remembered sequence.",
+      "number": 16,
+      "filename": "16-the-opening-ends-when-the-position-gives-you-a-plan.html",
+      "opening": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "a6",
+        "Ba4",
+        "Nf6",
+        "O-O",
+        "Be7",
+        "Re1",
+        "b5",
+        "Bb3",
+        "d6"
+      ],
+      "openingPgn": "[Event \"?\"]\n[Site \"?\"]\n[Date \"????.??.??\"]\n[Round \"?\"]\n[White \"?\"]\n[Black \"?\"]\n[Result \"*\"]\n\n1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 *",
+      "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1B3N2/PPPP1PPP/RNBQR1K1 w kq - 0 8",
+      "steps": [
+        {
+          "san": "c3",
+          "uci": "c2c3",
+          "note": "White supports a future d4 advance and gives the b3 bishop a possible retreat to c2.",
+          "side": "w",
+          "moveNumber": 8,
+          "fen": "r1bqk2r/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 b kq - 0 8"
+        },
+        {
+          "san": "O-O",
+          "uci": "e8g8",
+          "note": "Black completes king-side castling.",
+          "side": "b",
+          "moveNumber": 8,
+          "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N2/PP1P1PPP/RNBQR1K1 w - - 1 9"
+        },
+        {
+          "san": "h3",
+          "uci": "h2h3",
+          "note": "White takes the g4 square away from a Black minor piece before continuing the central plan.",
+          "side": "w",
+          "moveNumber": 9,
+          "fen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9"
+        }
+      ],
+      "finalFen": "r1bq1rk1/2p1bppp/p1np1n2/1p2p3/4P3/1BP2N1P/PP1P1PP1/RNBQR1K1 b - - 0 9",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 197
+    }
+  ],
+  "repo": "chess16",
+  "series": [
+    {
+      "repo": "chess15",
+      "title": "Chess, Clearly"
+    },
+    {
+      "repo": "chess16",
+      "title": "Openings, Explained"
+    },
+    {
+      "repo": "chess17",
+      "title": "Tactics, Made Visible"
+    },
+    {
+      "repo": "chess18",
+      "title": "Endgames, Step by Step"
+    }
+  ]
+}
