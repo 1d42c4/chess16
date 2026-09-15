@@ -1,5 +1,5 @@
 [Event "Openings, Explained: lesson 1"]
-[Site "https://knightway8.github.io/chess16/lessons/01-central-pawns-make-room-for-the-pieces.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/01-central-pawns-make-room-for-the-pieces.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -11,7 +11,7 @@
 1. e4 { White claims central space and opens lines for development. } 1... e5 { Black makes the corresponding central claim. } 2. Nf3 { White develops a knight while attacking e5. } 2... Nc6 { Black develops a knight that protects e5. } *
 
 [Event "Openings, Explained: lesson 2"]
-[Site "https://knightway8.github.io/chess16/lessons/02-develop-toward-useful-work.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/02-develop-toward-useful-work.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -23,7 +23,7 @@
 2. Nf3 { The knight develops with an attack on e5. } 2... Nc6 { Black protects e5 with another developing move. } 3. Bc4 { The bishop joins the game on a diagonal toward the Black king’s side. } 3... Nf6 { Black develops and attacks White’s e4 pawn. } *
 
 [Event "Openings, Explained: lesson 3"]
-[Site "https://knightway8.github.io/chess16/lessons/03-castling-connects-safety-with-development.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/03-castling-connects-safety-with-development.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -35,7 +35,7 @@
 4. O-O { White brings the king to g1 and the rook to f1 in one move. } 4... Nf6 { Black develops with pressure on e4. } 5. d3 { White supports e4 and opens the c1 bishop’s diagonal. } 5... d6 { Black supports e5 and releases the c8 bishop. } *
 
 [Event "Openings, Explained: lesson 4"]
-[Site "https://knightway8.github.io/chess16/lessons/04-an-early-queen-can-become-a-target.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/04-an-early-queen-can-become-a-target.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -47,7 +47,7 @@
 3. Nc3 { White develops and attacks the queen at the same time. } 3... Qa5 { Black moves the queen away from the attack. } 4. d4 { White builds a central pawn presence and frees the c1 bishop. } 4... Nf6 { Black begins developing a knight toward the center. } *
 
 [Event "Openings, Explained: lesson 5"]
-[Site "https://knightway8.github.io/chess16/lessons/05-the-f7-pawn-begins-with-only-one-defender.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/05-the-f7-pawn-begins-with-only-one-defender.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -59,7 +59,7 @@
 3. Qh5 { White threatens Qxf7#, combining queen and bishop. } 3... Nf6 { This developing move attacks the queen but does not stop its mating capture. } 4. Qxf7# { The queen captures on f7. The c4 bishop protects it, so the Black king cannot take it. } 1-0
 
 [Event "Openings, Explained: lesson 6"]
-[Site "https://knightway8.github.io/chess16/lessons/06-the-queens-gambit-challenges-a-central-pawn.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/06-the-queens-gambit-challenges-a-central-pawn.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -71,7 +71,7 @@
 2. c4 { White challenges the d5 pawn from the side. } 2... e6 { Black supports d5 and opens the f8 bishop’s diagonal. } 3. Nf3 { White develops while keeping the central tension. } 3... Nf6 { Black develops and adds control of e4. } 4. cxd5 { White chooses to exchange the c-pawn for the d5 pawn. } 4... exd5 { Black recaptures with the e-pawn, producing a new pawn structure. } *
 
 [Event "Openings, Explained: lesson 7"]
-[Site "https://knightway8.github.io/chess16/lessons/07-the-sicilian-trades-a-flank-pawn-for-a-central-pawn.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/07-the-sicilian-trades-a-flank-pawn-for-a-central-pawn.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -83,7 +83,7 @@
 3. d4 { White offers a central pawn exchange to free the pieces. } 3... cxd4 { Black trades the c-pawn for White’s d-pawn. } 4. Nxd4 { White recaptures with the f3 knight, developing its central influence. } 4... Nf6 { Black develops and attacks e4. } 5. Nc3 { White develops a knight that supports e4. } *
 
 [Event "Openings, Explained: lesson 8"]
-[Site "https://knightway8.github.io/chess16/lessons/08-a-pawn-chain-has-a-base.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/08-a-pawn-chain-has-a-base.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -95,7 +95,7 @@
 3. e5 { White gains space and fixes a pawn on e5. } 3... c5 { Black immediately challenges the supporting d4 pawn. } 4. c3 { White reinforces d4 with the c-pawn. } 4... Nc6 { Black develops another attacker against d4. } *
 
 [Event "Openings, Explained: lesson 9"]
-[Site "https://knightway8.github.io/chess16/lessons/09-develop-a-bishop-before-closing-its-diagonal.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/09-develop-a-bishop-before-closing-its-diagonal.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -107,7 +107,7 @@
 3... Bf5 { Black develops the c8 bishop outside the future pawn chain. } 4. Nf3 { White develops toward the center. } 4... e6 { Black reinforces d5 and opens the f8 bishop’s diagonal. } *
 
 [Event "Openings, Explained: lesson 10"]
-[Site "https://knightway8.github.io/chess16/lessons/10-a-fianchetto-puts-a-bishop-on-a-long-diagonal.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/10-a-fianchetto-puts-a-bishop-on-a-long-diagonal.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -119,7 +119,7 @@
 3. Bg2 { White places the bishop on the long diagonal. } 3... Bg7 { Black places the bishop on the opposite long diagonal. } 4. O-O { White castles behind the fianchetto structure. } 4... O-O { Black also castles. } *
 
 [Event "Openings, Explained: lesson 11"]
-[Site "https://knightway8.github.io/chess16/lessons/11-a-closed-center-gives-plans-time-to-develop.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/11-a-closed-center-gives-plans-time-to-develop.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -131,7 +131,7 @@
 7. d5 { White gains space and closes the central pawn contact. } 7... Na6 { Black develops a knight toward c5 or another useful route. } 8. O-O { White completes king-side castling. } *
 
 [Event "Openings, Explained: lesson 12"]
-[Site "https://knightway8.github.io/chess16/lessons/12-a-gambit-exchanges-material-for-opportunities.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/12-a-gambit-exchanges-material-for-opportunities.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -143,7 +143,7 @@
 2. f4 { White offers a pawn and challenges e5. } 2... exf4 { Black accepts the King’s Gambit. } 3. Nf3 { White develops and prevents an immediate queen check on h4. } 3... g5 { Black supports the extra pawn and expands on the king-side. } 4. Bc4 { White develops toward f7. } *
 
 [Event "Openings, Explained: lesson 13"]
-[Site "https://knightway8.github.io/chess16/lessons/13-sometimes-development-is-worth-more-than-grabbing-a-pawn.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/13-sometimes-development-is-worth-more-than-grabbing-a-pawn.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -155,7 +155,7 @@
 8. Nc3 { White develops the remaining knight instead of making another queen excursion. } 8... c6 { Black prepares space for the queen-side pieces and restrains a knight entry on d5. } 9. Bg5 { White develops the c1 bishop with a pin against the f6 knight and pressure along the diagonal. } *
 
 [Event "Openings, Explained: lesson 14"]
-[Site "https://knightway8.github.io/chess16/lessons/14-a-central-break-must-include-the-opponents-forcing-reply.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/14-a-central-break-must-include-the-opponents-forcing-reply.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -167,7 +167,7 @@
 4. c3 { White prepares the d4 advance. } 4... Nf6 { Black develops with pressure on e4. } 5. d4 { White challenges the center. } 5... exd4 { Black accepts the exchange. } 6. cxd4 { White recaptures, establishing pawns on d4 and e4. } 6... Bb4+ { Black develops the bishop’s counterplay with a check. } *
 
 [Event "Openings, Explained: lesson 15"]
-[Site "https://knightway8.github.io/chess16/lessons/15-small-pawn-moves-can-expose-a-large-diagonal.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/15-small-pawn-moves-can-expose-a-large-diagonal.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
@@ -179,7 +179,7 @@
 1. f3 { White weakens the e1–h4 diagonal and obstructs the g1 knight’s natural f3 square. } 1... e5 { Black opens the queen’s diagonal. } 2. g4 { White removes the g-pawn from the route that could help meet the queen check. } 2... Qh4# { Black checks along h4–g3–f2–e1, and White has no legal defense. } 0-1
 
 [Event "Openings, Explained: lesson 16"]
-[Site "https://knightway8.github.io/chess16/lessons/16-the-opening-ends-when-the-position-gives-you-a-plan.html"]
+[Site "https://1d42c4.github.io/chess16/lessons/16-the-opening-ends-when-the-position-gives-you-a-plan.html"]
 [Date "2026.09.05"]
 [Round "-"]
 [White "Illustration"]
